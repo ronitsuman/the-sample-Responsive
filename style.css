@@ -1,0 +1,603 @@
+/* global start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global ends here */
+/* notification-bar start here */
+.notification-bar{
+    max-width: 1440px;
+    margin: auto;
+    padding: 2px 0px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    
+
+}
+.notification-content{
+    
+    width: 300px ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.notification-bar a{
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.836);
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+
+}
+.notification-bar a:hover{
+    padding: .3rem;
+    font-size: 1.3rem;
+    color: white;
+}
+.notification-content .text p  {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.notification-bar .fa-xmark{
+    position: absolute;
+    right: 1rem;
+    color: yellow ;
+}
+.notification-bar .fa-xmark:hover{
+    color: white;
+    font-size: 1.3rem; 
+}
+
+/* notification-bar end here */
+
+/* <!-- navigation-bar start here --> */
+.navigation-bar{
+    max-width: 1440px;
+    /* height: 60px; */
+    background-color: #FFAB00A3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 160px;
+}
+.logo-bar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo-bar .fa-bars{
+    display: none;
+} 
+.logo-bar a{
+    text-decoration: none ;
+    font-size: 24px;
+    font-family: poppins;
+    line-height: 24px;
+    font-weight: 500;
+    color: black;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    
+    
+}
+nav ul li a:hover{
+    font-size: 1.3rem;
+    border-bottom: 2px solid;
+    padding: .2rem;
+}
+nav ul li .angle-down{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    cursor: pointer;
+}
+.icons i:hover{
+    font-size: 1.3rem;
+}
+.icons .circle{
+    border: 1px solid;
+    padding: .3rem;
+    border-radius: 50%;
+}
+.icons2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.icons2 .btn-2{
+    border: 1px solid;
+    color: white;
+    background-color: black;
+    padding: .3rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.icon2 .btn-2:hover{
+    background-color: yellowgreen;
+}
+
+
+/* <!-- navigation-bar end here --> */
+
+/* <!-- hero-section start here --> */
+.hero{
+    max-width: 1440px;
+    height: 820px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    display: flex;
+    width: 538px;
+    height: 376px;
+    /* align-items: center; */
+    flex-direction: column;
+    position: absolute;
+    right: 80px;
+    /* border: 1px solid; */
+    gap: 20px;
+
+}
+.hero-content .text{
+    display: flex;
+    flex-direction: column;
+    width: 538px;
+   
+}
+.hero-content .text h2{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 84px;
+    letter-spacing: -3;
+}
+.hero .hero-content .text h2 .blue{
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 84px;
+    color: #377DFF;
+    letter-spacing: -3px;
+    text-align: left;
+    
+}
+.hero-content .text p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    
+}
+.hero-content button{
+    width: 234px;
+    padding: 12px 56px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.hero-content button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/* <!-- hero-section ends here --> */
+
+/* logos start here  */
+.logos{
+    max-width: 1440px;
+    height: 162px;
+    margin: auto;
+    /* border: 1px solid; */
+    padding-top: 40px;
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.logos .logos-img{
+    display: flex;
+    gap: 10px;
+
+}
+.logos .arrows{
+    display: none;
+    gap: 40px;
+}
+/* logos end here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query start here  */
+/* for mobile view  */
+/* in between 350 px to 500 px this is active   */
+@media (min-width:350px) and (max-width:500px){
+    /* notification-bar start here */
+.notification-bar{
+   background-color: black;   
+}
+.notification-bar a{
+    display: none ;
+}
+
+.notification-content .text p  {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.notification-bar .fa-xmark{
+    right: .3rem;
+    
+}
+/* notification-bar end here */
+/* <!-- navigation-bar start here --> */
+.navigation-bar{
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 16px 32px;
+    
+    
+}
+.logo-bar{
+    
+    gap: 15px;
+}
+.logo-bar .fa-bars{
+    display: block;
+} 
+.logo-bar a{
+    text-decoration: none ;
+    font-size: 18px;
+    font-family: poppins;
+    line-height: 24px;
+    font-weight: 500;
+    color: black;
+}
+nav ul{
+    display: none;
+   
+
+}
+
+.icons .fa-magnifying-glass{
+    display: none;
+    
+}
+.icons .circle{
+    display: none;
+    
+}
+/* <!-- navigation-bar end here --> */
+/* <!-- hero-section start here --> */
+.hero{
+    width: auto;
+    height: 692px;
+    margin: auto;
+    
+
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    width: 170px;
+    height: 310px;
+    /* align-items: center; */
+    left : 170px;
+    top: 0px;
+    gap: 10px;
+    /* align-items: center; */
+   
+    /* border: 1px solid; */
+   
+
+}
+.hero-content .text{
+    width: 250px;
+    
+   
+}
+.hero-content .text h2{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 30px;
+    
+    letter-spacing: -3;
+}
+.hero .hero-content .text h2 .blue{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    color: #377DFF;
+    
+    
+}
+.hero-content .text p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    
+    
+}
+.hero-content button{
+    width: 150px;
+    padding: 12px 4px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+/* <!-- hero-section ends here --> */
+/* logos start here  */
+.logos{
+    padding-top: 20px;
+    width: auto;
+    gap: 10px;
+}
+.logos h2{
+    font-size: 12px;
+}
+.logos .logos-img{
+    display: flex;
+    gap: 10px;
+
+}
+.logos .arrows{
+    display: flex;
+    gap: 40px;
+}
+.logos .logos-img .logo2{
+    display: none;
+}
+.logos .logos-img .logo5{
+    display: none;
+}
+.logos .logos-img .logo4{
+    display: none;
+}
+/* logos end here  */
+
+
+}
+
+/* for tablet  */
+@media (min-width:500px) and (max-width:900px){
+
+    /* notification-bar start here */
+.notification-bar{
+   background-color: green;
+    gap: 20px; 
+}
+.notification-content{
+    gap: 20px;
+    
+    
+}
+.notification-bar a{
+    display: block ;
+    color: lightskyblue;
+   
+
+}
+
+.notification-content .text p  {
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.notification-bar .fa-xmark{
+    right: .3rem;
+    color: lightblue;
+    
+}
+/* notification-bar end here */
+.navigation-bar{
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 52px;
+    
+    
+}
+.logo-bar{
+    
+    gap: 15px;
+}
+.logo-bar .fa-bars{
+    display: block;
+} 
+.logo-bar a{
+    text-decoration: none ;
+    font-size: 18px;
+    font-family: poppins;
+    line-height: 24px;
+    font-weight: 500;
+    color: black;
+}
+nav ul{
+    display: block;
+    display: flex;
+    gap: 12px;
+   
+
+}
+nav ul li .angle-down{
+    display: none;
+}
+
+.icons .fa-magnifying-glass{
+    display: block;
+    
+}
+.icons .circle{
+    display: block;
+    
+}
+/* <!-- navigation-bar end here --> */
+/* <!-- hero-section start here --> */
+.hero{
+    width: auto;
+    height: 692px;
+    margin: auto;
+    
+
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    width: 538px;
+    height: 310px;
+    /* align-items: center; */
+    right : 50px;
+    top: 0px;
+    gap: 10px;
+    align-items: end;
+    /* align-items: center; */
+   
+    /* border: 1px solid; */
+   
+
+}
+.hero-content .text{
+    width: 250px;
+    
+   
+}
+.hero-content .text h2{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: -3;
+}
+.hero .hero-content .text h2 .blue{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 500;
+    color: #377DFF;
+    
+    
+}
+.hero-content .text p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    
+    
+}
+.hero-content button{
+    width: 250px;
+    padding: 12px 4px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+/* <!-- hero-section ends here --> */
+/* logos start here  */
+.logos{
+    padding-top: 20px;
+    width: auto;
+    gap: 10px;
+}
+.logos h2{
+    font-size: 14px;
+}
+.logos .logos-img{
+    display: flex;
+    gap: 20px;
+
+}
+.logos .arrows{
+    display: flex;
+    gap: 40px;
+}
+.logos .logos-img .logo2{
+    display: none;
+}
+.logos .logos-img .logo5{
+    display: block;
+}
+.logos .logos-img .logo4{
+    display: none;
+}
+/* logos end here  */
+
+
+}
+/* media query ends here  */
