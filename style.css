@@ -251,6 +251,88 @@ nav ul li .angle-down{
     gap: 40px;
 }
 /* logos end here  */
+/* product-card start her  */
+.product-card{
+    /* margin: auto; */
+    width: 1440px;
+    height: 640px;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    gap: 48px;
+    padding-bottom: 48px;
+    padding-left: 160px;
+}
+.product-heading{
+    width: 1120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+}
+.product-heading h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.product-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.product-icon i:hover{
+    font-size: 1.3rem;
+}
+.product-list{
+    /* width: 1280px; */
+    height: 459px;
+    border: 1px solid ;
+}
+.card{
+    width: 262px;
+    height: 459px;
+    border: 1px solid;
+    position: relative;
+}
+.product-img{
+    width: 262px;
+    height: 349px;
+    border: 1px solid;
+    
+}
+.product-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.product-img:hover .new{
+    display: block;
+    opacity: 1;
+    background-color:white ;
+    color: black;
+    width: 64px;
+    height: 24px;
+    border-radius: 2px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-img .new{
+  
+    opacity: 0;
+}
+.product-img .new:hover{
+    font-size: 1.3rem;
+}
+/* product-card end her  */
 
 
 
